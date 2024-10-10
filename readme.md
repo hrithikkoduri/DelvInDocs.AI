@@ -41,7 +41,7 @@ Follow these steps to set up the project locally:
 
 1. **Launch the application:**
     ```bash
-    python app.py  # Replace with your main script
+    python main.py  
 
 2. **Input the base URLs:** Enter the base URLs of the documentation you want to scrape.
 
@@ -61,7 +61,8 @@ To ensure your API keys are secure:
 
 Store API keys securely: Use environment variables or a .env file to manage your API keys.
 
-Do not include API keys in your code: Ensure that your API keys are excluded from version control by adding them to your .gitignore file.
+You will specifically need OpenAI API Key and Activeloop Token. Generate those API Keys and past them in the .env file
+
 
 ## Contributing
 Contributions are welcome! To contribute to the project, please follow these steps:
@@ -83,10 +84,10 @@ Contributions are welcome! To contribute to the project, please follow these ste
 5. **Open a pull request.**
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgments
-- Langchain for the framework to manage the AI pipeline.
-- OpenAI GPT for providing the language model.
-- Deeplake for the vector database used in the project.
+- [Langchain](https://www.langchain.com/) for the framework to manage the AI pipeline.
+- [OpenAI](https://openai.com/) GPT for providing the language model.
+- [Activeloop Deep Lake](https://activeloop.ai/) for the vector database used in the project.
 - Special thanks to all contributors and users for their support and feedback.
