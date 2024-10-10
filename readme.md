@@ -56,9 +56,9 @@ Follow these steps to set up the project locally:
 ## API Key Management
 To ensure your API keys are secure:
 
-Store API keys securely: Use environment variables or a .env file to manage your API keys.
+Store API keys securely: Use environment variables or a **.env** file to manage your API keys.
 
-You will specifically need OpenAI API Key and Activeloop Token. Generate those API Keys and past them in the .env file
+You will specifically need **OpenAI API Key** and **Activeloop Token**. Generate those API Keys and past them in the **.env** file
 
 
 ## Contributing
