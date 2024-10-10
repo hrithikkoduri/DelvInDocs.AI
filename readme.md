@@ -25,35 +25,35 @@ DelvInDocs.AI is a generative AI tool designed to enhance the understandability 
 
 Follow these steps to set up the project locally:
 
-1. **Clone the repository:**
+1. **1. Clone the repository:**
    ```bash
    git clone https://github.com/hrithikkoduri/DelvInDocs.AI.git
    cd DelvInDocs.AI
    ```
 
-2. **Create a virtual environment (optional but recommended):**
+2. **2. Create a virtual environment (optional but recommended):**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. **Install the required dependencies:**
+3. **3. Install the required dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-4. **Setup Activeloop:**
+4. **4. Setup Activeloop:**
     Create your ActiveLoop account by going tothis link : https://app.activeloop.ai/
 
     Create an **ActiveLoop Token** and paste it securely in a file
 
     Further you need to create an **organization** on activeloop and copy the name of the organization you created
 
-5. **Create OpenAI Key:**
+5. **5. Create OpenAI Key:**
     Go to this link https://openai.com/index/openai-api/
 
     Sign up and create your **OpenAI API Key**. Copy the api key and store it securely.
 
-4. **Setup environment variables and Deeplake :**
+4. **6. Setup environment variables and Deeplake :**
     Open the .env file replace the respective place holders with your API keys
     
     .env
@@ -74,40 +74,40 @@ Follow these steps to set up the project locally:
 
 ## Uasge
 
-1. **Launch the application:**
+1. **1. Launch the application:**
     ```bash
     streamlit run main.py
     ```  
 
-2. **Input the base URLs:** Enter the base URLs of the documentation you want to scrape.
+2. **2. Input the base URLs:** Enter the base URLs of the documentation you want to scrape.
 
-3. **Ask questions:** Inquire about specific information or request code snippets related to the documentation.
+3. **3. Ask questions:** Inquire about specific information or request code snippets related to the documentation.
 
-4. **Receive tailored responses:** Get cohesive code snippets and relevant answers based on your queries.
+4. **4. Receive tailored responses:** Get cohesive code snippets and relevant answers based on your queries.
 
 
 
 ## Contributing
 Contributions are welcome! To contribute to the project, please follow these steps:
 
-1. **Fork the repository.**
+1. **1. Fork the repository.**
 
-2. **Create a new branch:**
+2. **2. Create a new branch:**
     ```bash
     git checkout -b feature-branch
     ```
 
-3. **Make your changes and commit them:**
+3. **3. Make your changes and commit them:**
     ```bash
     git commit -m 'Add new feature'
     ```
 
-4. **Push to the branch:**
+4. **4. Push to the branch:**
     ```bash
     git push origin feature-branch
     ```
 
-5. **Open a pull request.**
+5. **5. Open a pull request.**
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
