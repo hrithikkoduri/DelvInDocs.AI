@@ -1,4 +1,4 @@
-# DelvInDocs.AI
+# DelvInDocs.AI🤖
 
 DelvInDocs.AI is a generative AI tool designed to enhance the understandability of extensive documentation. Utilizing Langchain, OpenAI GPT, and Deeplake Vector, this tool intelligently scrapes information from provided base URLs and their child links. Users can ask questions and receive tailored code snippets and cohesive responses across various libraries (e.g., React, Node.js, Tailwind CSS, MongoDB). This streamlines the process of finding relevant documentation and saves valuable development time.
 
