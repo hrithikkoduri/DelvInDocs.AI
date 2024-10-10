@@ -41,7 +41,7 @@ Follow these steps to set up the project locally:
 
 1. **Launch the application:**
     ```bash
-    python main.py  
+    streamlit run main.py  
 
 2. **Input the base URLs:** Enter the base URLs of the documentation you want to scrape.
 
