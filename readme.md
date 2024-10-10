@@ -1,6 +1,6 @@
-# DelvInDocs.AI🤖
+# DelvInDocs.AI
 
-DelvInDocs.AI is a generative AI tool designed to enhance the understandability of extensive documentation. Utilizing Langchain, OpenAI GPT, and Deeplake Vector, this tool intelligently scrapes information from provided base URLs and their child links. Users can ask questions and receive tailored code snippets and cohesive responses across various libraries (e.g., React, Node.js, Tailwind CSS, MongoDB). This streamlines the process of finding relevant documentation and saves valuable development time.
+DelvInDocs.AI🤖 is a generative AI tool designed to enhance the understandability of extensive documentation. Utilizing Langchain, OpenAI GPT, and Deeplake Vector, this tool intelligently scrapes information from provided base URLs and their child links. Users can ask questions and receive tailored code snippets and cohesive responses across various libraries (e.g., React, Node.js, Tailwind CSS, MongoDB). This streamlines the process of finding relevant documentation and saves valuable development time.
 
 ## Demo
 ![Demo of DelvInDocs.AI](assets/demo.gif)
@@ -31,31 +31,44 @@ Follow these steps to set up the project locally:
    cd DelvInDocs.AI
    ```
 
+
+
 2. **2. Create a virtual environment (optional but recommended):**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
+
+
 3. **3. Install the required dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
+
+
 4. **4. Setup Activeloop:**
+    
     Create your ActiveLoop account by going tothis link : https://app.activeloop.ai/
 
     Create an **ActiveLoop Token** and paste it securely in a file
 
     Further you need to create an **organization** on activeloop and copy the name of the organization you created
 
+
 5. **5. Create OpenAI Key:**
+    
     Go to this link https://openai.com/index/openai-api/
+
 
     Sign up and create your **OpenAI API Key**. Copy the api key and store it securely.
 
+
 4. **6. Setup environment variables and Deeplake :**
+    
     Open the .env file replace the respective place holders with your API keys
     
+
     .env
     ```bash
     ACTIVELOOP_TOKEN="<YOUR_ACTIVELOOP_TOKEN>"
