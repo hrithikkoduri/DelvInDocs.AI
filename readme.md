@@ -17,7 +17,6 @@ DelvInDocs.AI is a generative AI tool designed to enhance the understandability 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [API Key Management](#api-key-management)
 - [Contributing](#contributing)
 - [License](#license)
@@ -53,12 +52,6 @@ Follow these steps to set up the project locally:
 
 4. **Receive tailored responses:** Get cohesive code snippets and relevant answers based on your queries.
 
-## Configuration
-
-Before running the application, you may need to configure certain settings, such as:
-
-Base URLs: Input the URLs of the documentation you want to scrape.
-Query Parameters: Customize how the application processes and retrieves information based on your needs.
 
 ## API Key Management
 To ensure your API keys are secure:
