@@ -9,6 +9,7 @@ DelvInDocs.AI is a generative AI tool designed to enhance the understandability 
 
 - **Documentation Scraping:** Automatically scrapes content from base URLs and their child links.
 - **Integrated Code Snippets:** Provides cohesive code snippets and responses across multiple libraries.
+- **Contex Continuity:** Remebers previous 3 conversation exhanges to maintain conversation continuity for follow up questions
 - **User-Friendly Interface:** Simplifies the search for relevant documentation, making it accessible and easy to use.
 - **Time-Saving:** Reduces development time by quickly delivering the information needed.
 
